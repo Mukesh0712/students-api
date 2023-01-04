@@ -2,9 +2,9 @@ import express from "express"
 import mongoose from "mongoose"
 import dotenv from "dotenv"
 
-import Student from "./models/Student"
-
 dotenv.config()
+
+import Student from "./models/Student.js"
 
 const app = express()
 
